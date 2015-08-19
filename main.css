@@ -1,0 +1,37 @@
+.round {
+    border-radius: 10px;
+    background: #252A3D;
+    padding-top: 0.1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0.1px;
+    width: auto;
+    display: inline-block;
+
+}
+
+* unvisited link */
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+a:link {
+    color: #FFF;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+    color: #868686;
+}
+
+/* selected link */
+a:active {
+    color: #FFF;
+}

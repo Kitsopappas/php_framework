@@ -2,9 +2,14 @@
 
 class Head{
 
-  function __costruct($title = "Chris"){
+  function start($title = ""){
+    echo '<head>';
     echo '<title>'. $title .'</title>';
 
+  }
+
+  function addCSS($location){
+    echo '<link rel="stylesheet" type="text/css" href="'.$location.'">';
   }
 
   function close(){

@@ -1,6 +1,7 @@
 <?php
 class Element{
 
+  #text elements - START#
   function addText($name = "p", $data = "", $class = "", $id = "" ){
     echo '<' . $name . ' class="' . $class . '" id="' . $id . '">' .
     $data . '</' . $name . '>' ;
@@ -14,6 +15,17 @@ class Element{
       echo '<' . $name . ' class="' . $class . '" id="' . $id . '">' . '<a href="' . $link . '" _target="blank"' .
        "</a>" . $data. '</' . $name . '>' ;
     }
+  }
+  #text elements - SEND#
+
+  #elements - START#
+  function addWrapper($name = "div", $class = "", $id = ""){
+      echo '<'. $name . ' class = "'. $class .'"' . ' id="' . $id . '">';
+
+  }
+
+  function closeWrapper(){
+    echo '</div>';
   }
 }
 
